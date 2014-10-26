@@ -1,0 +1,22 @@
+[package]
+
+name = "patina"
+version = "0.0.1"
+authors = ["John Kodumal <john@catamorphic.com>"]
+
+
+[dependencies.redis-rs]
+
+git = "https://github.com/mitsuhiko/redis-rs"
+
+[dependencies.iron]
+
+git = "https://github.com/iron/iron.git"
+
+[dependencies.rust-crypto]
+
+git = "https://github.com/DaGenix/rust-crypto"
+
+[dependencies.session]
+
+git = "https://github.com/launchdarkly/iron-session.git"
